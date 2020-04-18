@@ -3,4 +3,4 @@
 hVelo = 5;
 vVelo = 0;
 rotation = 0;
-scoreMultiplier = 100;
+scoreMultiplier = 10;
