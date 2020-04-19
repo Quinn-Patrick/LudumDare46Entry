@@ -11,6 +11,7 @@ global.gravity = 0.2;
 global.level = 1;
 global.universalSpeed = 1;
 global.totalBounces = 0;
+global.messageHeightSequence = 0;
 draw_set_font(fnt_bin);
 queuedBall = false;
 

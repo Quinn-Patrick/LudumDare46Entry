@@ -20,7 +20,7 @@ if(collision_rectangle(obj_paddle.x, obj_paddle.y, obj_paddle.x + obj_paddle.wid
 	global.totalBounces++;
 	vVelo = -1619.086162
 	subY = (obj_paddle.y - sprite_height -1)*128;
-	score += scoreCalc(self.scoreMultiplier);
+	score += floor(scoreCalc(self.scoreMultiplier));
 }
 
 event_user(1);

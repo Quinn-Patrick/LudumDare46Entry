@@ -32,4 +32,4 @@ timer++;
 if(timer > 240 && dead){
 	room_goto(scores);
 }
-score = round(score);
+score = floor(score);
